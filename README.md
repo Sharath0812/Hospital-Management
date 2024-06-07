@@ -1,8 +1,13 @@
-# Hospital-Management-Systems
-A database that holds records of hospital from where details can be viewed, inserted and deleted. The program is used for computerizing the working in a hospital to collect information from the patients and then storing it in a MySql database to process and extract information.
+# Hospital System Application
+This project is a graphical user interface (GUI) application built using Python's Tkinter library to interact with a MySQL database for managing hospital records. The application allows users to view, insert, and delete entries in different tables within the database. Here's a breakdown of the key components and functionalities:
+Viewing Data: Users can click buttons corresponding to different tables (Doctor, Hospital, Patient, MedicalRecord) to view their data. The Listbox is populated with the data from the selected table, and Entry widgets are created for data insertion.
+Inserting Data: Users can enter new data in the Entry widgets and press the Enter button. The insert function collects the data and inserts it into the corresponding table in the database.
+Deleting Data: Users can select an entry in the Listbox and press the Delete key. The remove_entry function deletes the selected entry from the corresponding table in the database. This project provides a simple yet functional interface for managing hospital records in a MySQL database, allowing for basic CRUD (Create, Read, Update, Delete) operations.
+This project aims to streamline the process of managing hospital data, reducing administrative burden and improving data accuracy and accessibility.
+
 ## Setup Instructions
 1. Install MySQL Server
- * Download MySQL Server:
+ * Download MySQL Server.
  * Go to the MySQL Downloads page and download the MySQL installer for Windows.
  * Run the installer and follow the setup instructions, choosing the default options unless you have specific requirements.
 2. Configure MySQL Server:
