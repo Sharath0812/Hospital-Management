@@ -1,4 +1,4 @@
-# Hospital System Application
+# Hospital Systems Application
 This project is a graphical user interface (GUI) application built using Python's Tkinter library to interact with a MySQL database for managing hospital records. The application allows users to view, insert, and delete entries in different tables within the database. Here's a breakdown of the key components and functionalities:
 1. Viewing Data: Users can click buttons corresponding to different tables (Doctor, Hospital, Patient, MedicalRecord) to view their data. The Listbox is populated with the data from the selected table, and Entry widgets are created for data insertion.
 2. Inserting Data: Users can enter new data in the Entry widgets and press the Enter button. The insert function collects the data and inserts it into the corresponding table in the database.
